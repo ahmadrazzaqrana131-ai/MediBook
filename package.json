@@ -1,0 +1,14 @@
+{
+  "name": "medibook",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "start:backend": "npm run start --prefix backend",
+    "build": "npm run build --prefix frontend",
+    "lint": "npm run lint --prefix frontend",
+    "preview": "npm run preview --prefix frontend",
+    "test": "npm run test:backend",
+    "test:backend": "npm test --prefix backend"
+  }
+}
